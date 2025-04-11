@@ -2,30 +2,32 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import website1 from '../../assets/images/website1.jpg';
+import androidCodelab from '../../assets/images/android_codelab.png';
+import website3 from '../../assets/images/webisite3.png';
 
 const projects = [
   {
     name: "Learning Management System",
     year: "Apr2025",
     align: "right",
-    image: new URL('../assets/images/website1.jpg', import.meta.url).href,
+    image: website1,
     link: "https://github.com/saikumarpagidi",
   },
   {
     name: "Map Accesss API",
     year: "Dec2024",
     align: "left",
-    image: new URL('../assets/images/android_codelab.png', import.meta.url).href,
+    image: androidCodelab,
     link: "https://github.com/saikumarpagidi/Simple-Amazon",
   },
   {
     name: "E-commerce Website (Simple Amazon Clone)",
     year: "sept2024",
     align: "right",
-    image: new URL('../assets/images/webisite3.png', import.meta.url).href,
+    image: website3,
     link: "https://github.com/saikumarpagidi/Simple-Amazon",
   },
-  
 ];
 
 const ProjectsMain = () => {
