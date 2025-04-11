@@ -8,21 +8,21 @@ const projects = [
     name: "Learning Management System",
     year: "Apr2025",
     align: "right",
-    image: "../../public/images/website1.jpg",
+    image: "/Portfolio-SP/images/website1.jpg",
     link: "https://github.com/saikumarpagidi",
   },
   {
     name: "Map Accesss API",
     year: "Dec2024",
     align: "left",
-    image: "../../public/images/android_codelab.png",
+    image: "/Portfolio-SP/images/android_codelab.png",
     link: "https://github.com/saikumarpagidi/Simple-Amazon",
   },
   {
     name: "E-commerce Website (Simple Amazon Clone)",
     year: "sept2024",
     align: "right",
-    image: "../../public/images/webisite3.png",
+    image: "/Portfolio-SP/images/webisite3.png",
     link: "https://github.com/saikumarpagidi/Simple-Amazon",
   },
   
@@ -48,6 +48,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

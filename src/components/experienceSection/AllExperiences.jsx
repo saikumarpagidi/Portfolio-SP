@@ -4,17 +4,23 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
-  
-  {
+   {
     job: "Java Full Stack Trainee",
     company: "C-DAC",
     date: "2024 - Present",
     responsibilities: [
       "Designed and developed a feature-rich LMS enabling admins to create structured courses (modules, topics, resources) and assign them to students, with integrated quizzes for progress assessment.",
-      
-
     ],
   },
+  // {
+  //   job: "Java Full Stack Trainee",
+  //   company: "C-DAC",
+  //   date: "2024 - Present",
+  //   responsibilities: [
+  //     "Designed and developed a feature-rich LMS enabling admins to create structured courses (modules, topics, resources) and assign them to students, with integrated quizzes for progress assessment.",
+  //   ],
+  // },
+  
 ];
 
 const AllExperiences = () => {
