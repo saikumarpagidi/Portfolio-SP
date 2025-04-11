@@ -1,5 +1,5 @@
 import { PiHexagonThin } from "react-icons/pi";
-import heroImage from '../../assets/images/HexaPicM2.png';
+import heroImage from '../../assets/images/me.png';
 
 const HeroImage = () => {
   return (
